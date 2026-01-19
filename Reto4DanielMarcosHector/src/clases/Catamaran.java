@@ -22,4 +22,9 @@ public String toString() {
 			+ ", capacidadCombustible=" + capacidadCombustible + "]";
 }
 
+@Override
+public double calcularAutonomia() {
+	return capacidadCombustible/motor.consumo + capacidadCombustible/motorSecundario.consumo;
+}
+
 }
