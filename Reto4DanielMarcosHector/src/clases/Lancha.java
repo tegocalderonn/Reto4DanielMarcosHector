@@ -30,4 +30,5 @@ public class Lancha extends Barco {
 	
 	
 	
+	
 }
