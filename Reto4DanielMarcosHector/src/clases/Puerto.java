@@ -33,4 +33,20 @@ public boolean entrarBarco(Barco b) {
 	}
 	
 }
+public boolean salirBarco(String nombre) {
+	if(barcos.contains(nombre)) {
+		barcos.remove(nombre);
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+public double calcularPrecioViaje(Barco b, int horas, double precioCombustible) {
+	if(horas<b.capacidadCombustible) {
+		return -1;
+	}else {
+		return horas*b.getMotor().getConsumo()*precioCombustible;
+	}
+}
 }
