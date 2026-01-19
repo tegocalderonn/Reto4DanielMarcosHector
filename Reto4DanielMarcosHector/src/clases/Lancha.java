@@ -2,7 +2,7 @@ package clases;
 
 public class Lancha extends Barco {
 
-	//Creación variables.
+	// Creación variables.
 	protected boolean cubierta;
 
 	public Lancha(String nombre, Motor motor, int capacidadCombustible, boolean cubierta) {
@@ -22,13 +22,9 @@ public class Lancha extends Barco {
 	public String toString() {
 		return "Lancha [cubierta=" + cubierta + ", toString()=" + super.toString() + "]";
 	}
-	
+
 	public double calcularAutonomia() {
 		return super.calcularAutonomia();
 	}
-	
-	
-	
-	
-	
+
 }
