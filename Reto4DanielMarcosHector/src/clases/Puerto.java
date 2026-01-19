@@ -49,4 +49,5 @@ public double calcularPrecioViaje(Barco b, int horas, double precioCombustible) 
 		return horas*b.getMotor().getConsumo()*precioCombustible;
 	}
 }
+
 }
