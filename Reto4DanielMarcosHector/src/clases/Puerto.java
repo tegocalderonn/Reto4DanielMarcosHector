@@ -6,7 +6,7 @@ import clases.Barco;
 public class Puerto {
 protected ArrayList<Barco> barcos;
 
-public Puerto(ArrayList<Barco> barcos) {
+public Puerto() {
 	super();
 	this.barcos = new ArrayList<Barco>();
 }
